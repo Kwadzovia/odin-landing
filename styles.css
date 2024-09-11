@@ -133,3 +133,26 @@
     width: 150px;
     justify-content: center;
 }
+
+.quote-container {
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    margin: auto 30% auto 30%;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    font-size: 25px;
+    align-self: flex-end;
+    margin-top: 10px;
+     font-weight: bold;
+}
