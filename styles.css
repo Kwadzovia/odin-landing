@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'roboto';
 }
 
 .header-container {
@@ -69,14 +70,8 @@
     text-align: center;
     padding: 30px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
-
-}
-
-.info-container {
-    display: flex;
-    justify-content: center;
 }
 
 .info-container {
@@ -92,6 +87,8 @@
     margin-bottom: 80px;
     width: 205px;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .info-img1 {
@@ -137,6 +134,7 @@
 .quote {
     margin: auto 30% auto 30%;
     font-size: 30px;
+    font-weight: 300;
     font-style: italic;
     display: flex;
     flex-direction: column;
