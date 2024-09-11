@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header-container {
     background-color: rgb(52, 57, 74);
     display: flex;
@@ -11,7 +12,7 @@
     /* border: 3px solid red; */
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +31,7 @@
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-    gap:20px;
+    gap: 20px;
 }
 
 .hero-container {
@@ -52,7 +53,7 @@
     font-size: 50px;
     align-self: flex-end;
     color: white;
-    
+
 }
 
 .hero-text-subtext {
@@ -60,6 +61,7 @@
     opacity: 80%;
     font-weight: 400;
 }
+
 .hero-image {
     margin: 50px;
 }
@@ -154,5 +156,61 @@
     font-size: 25px;
     align-self: flex-end;
     margin-top: 10px;
-     font-weight: bold;
+    font-weight: bold;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.signup-box {
+    display: flex;
+    width: 60%;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: rgb(54, 165, 221);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-maintext {
+    font-size: 30px;
+    font-weight: 700;
+    align-self: flex-end;
+    color: white;
+
+}
+
+.signup-subtext {
+    color: white;
+    opacity: 80%;
+    font-weight: 400;
+}
+
+.signup-button2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(54, 165, 221);
+    color: white;
+    font-weight: 600;
+    padding: 5px 25px;
+}
+
+.footer-container {
+    background-color: rgb(52, 57, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-weight: 300;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
